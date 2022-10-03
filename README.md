@@ -14,17 +14,14 @@ Please read the following before contributing to the repository:
 
 ## 💻 Projects
 
- 
-- [3-d-css](./projects/3-d-css) 
-- [Gradient-generator](./projects/Gradient-generator) 
-- [Notex](./projects/Notex)
+
 
 ## 😎 Maintainer
 
 <table>
   <tr>
     <td align="center">
-      <img src="https://avatars.githubusercontent.com/u/83509023?v=4" width="150px" alt="GSSoC'22" />
+      <img src="https://avatars.githubusercontent.com/u/75368010?v=4" width="150px" alt="GSSoC'22" />
       <br/>
        Shikhar Gupta
       <br/>
