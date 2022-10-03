@@ -1,0 +1,28 @@
+{
+  "name": "css-awesomeness",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "copyfiles": "copyfiles --error --up 1 scripts/templates/*.* build",
+    "postbuild": "npm run copyfiles"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shikhar13012001/css-awesomeness.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shikhar13012001/css-awesomeness/issues"
+  },
+  "homepage": "https://github.com/shikhar13012001/css-awesomeness#readme",
+  "dependencies": {
+    "@types/ejs": "^3.1.1",
+    "@types/node": "^18.7.23",
+    "copyfiles": "^2.4.1",
+    "ejs": "^3.1.8"
+  }
+}
