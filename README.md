@@ -15,7 +15,8 @@ Please read the following before contributing to the repository:
 ## 💻 Projects
 
  
-- [custom-radio-button](./projects/custom-radio-button)
+- [custom-radio-button](./projects/custom-radio-button) 
+- [hamburger-menu](./projects/hamburger-menu)
 
 ## 😎 Maintainer
 
