@@ -17,7 +17,8 @@ Please read the following before contributing to the repository:
  
 - [custom-radio-button](./projects/custom-radio-button) 
 - [hamburger-menu](./projects/hamburger-menu) 
-- [loader_dots](./projects/loader_dots)
+- [loader_dots](./projects/loader_dots) 
+- [wave-loader](./projects/wave-loader)
 
 ## 😎 Maintainer
 
