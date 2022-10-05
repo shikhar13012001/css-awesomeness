@@ -15,9 +15,14 @@ Please read the following before contributing to the repository:
 ## 💻 Projects
 
  
+- [3d-layer-loader](./projects/3d-layer-loader) 
+- [bar-loader](./projects/bar-loader) 
 - [custom-radio-button](./projects/custom-radio-button) 
+- [dice-loader](./projects/dice-loader) 
 - [hamburger-menu](./projects/hamburger-menu) 
 - [loader_dots](./projects/loader_dots) 
+- [progress-loader](./projects/progress-loader) 
+- [slider-loader](./projects/slider-loader) 
 - [wave-loader](./projects/wave-loader)
 
 ## 😎 Maintainer
