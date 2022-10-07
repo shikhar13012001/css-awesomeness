@@ -33,7 +33,7 @@ git remote add upstream https://github.com/shikhar13012001/css-awesomeness.git
 **Step 6:** Checkout to a new branch:
 
 ```git
-git brach -b <branch_name>
+git branch -b <branch_name>
 ```
 
 (you can use the following format for the branch name: `<your_github_username>-issue-<issue_number>`)
