@@ -16,6 +16,7 @@ Please read the following before contributing to the repository:
 
  
 - [3d-layer-loader](./projects/3d-layer-loader) 
+- [animated-button](./projects/animated-button) 
 - [bar-loader](./projects/bar-loader) 
 - [custom-radio-button](./projects/custom-radio-button) 
 - [dice-loader](./projects/dice-loader) 
@@ -24,7 +25,6 @@ Please read the following before contributing to the repository:
 - [progress-loader](./projects/progress-loader) 
 - [slider-loader](./projects/slider-loader) 
 - [wave-loader](./projects/wave-loader)
-- [Hover-button](./projects/animated-button)
 
 ## 😎 Maintainer
 
