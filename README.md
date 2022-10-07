@@ -24,6 +24,7 @@ Please read the following before contributing to the repository:
 - [progress-loader](./projects/progress-loader) 
 - [slider-loader](./projects/slider-loader) 
 - [wave-loader](./projects/wave-loader)
+- [Hover-button](./projects/animated-button)
 
 ## 😎 Maintainer
 
