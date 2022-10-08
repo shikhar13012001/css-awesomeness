@@ -16,6 +16,7 @@ Please read the following before contributing to the repository:
 
  
 - [3d-layer-loader](./projects/3d-layer-loader) 
+- [Bubble Coloring Animated Button Template](./projects/Bubble Coloring Animated Button Template) 
 - [animated-button](./projects/animated-button) 
 - [bar-loader](./projects/bar-loader) 
 - [custom-radio-button](./projects/custom-radio-button) 
