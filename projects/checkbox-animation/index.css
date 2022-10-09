@@ -1,0 +1,63 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+    position: relative;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(235, 219, 219);
+}
+
+.check-label{
+    display: block;
+    font-size: 10vmin;
+    height: 1em;
+    width: 2.5em;
+    box-sizing: content-box;
+    border-radius: .25em;
+    background: white;
+    padding: .15em;
+}
+.check-label::before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '';
+    height: 100%;
+    width: 100%;
+    border-radius: inherit;
+    box-shadow: 0 0.5em 1.9em 0 ;
+}
+
+.checkmark{
+    width: 1em;
+    height: 1em;
+    background: lightgray;
+    border-radius: .2em;
+    transition: 
+                background-color .4s ease,
+                transform .4s cubic-bezier(0.445, 0.05, 0.55, 1.5)
+}
+
+.checkbox{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 1;
+    visibility: hidden;
+}
+.checkbox:checked + .checkmark{
+    background: rgb(156, 255, 63);
+    transform: translate(1.5em);
+    
+}
