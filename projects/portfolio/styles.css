@@ -1,0 +1,300 @@
+/***** - Import Fonts Needed - *****/
+
+@import url('https://fonts.googleapis.com/css?family=Raleway|Source+Sans+Pro');
+/* Bootstrap Needed for Glyphicon fonts */
+@import url('//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css');
+
+/***** - Main HTML tag formatting - *****/
+
+body {
+  font-family: Raleway, Helvetica, sans-serif;
+  background-color: #460904; /* #951c1c #C47714; */
+  width: 100%;
+}
+
+p {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+span {
+  font-family: 'Glyphicons Halflings';
+  font-size: 1.0rem;
+}
+
+input[type="text"] {
+  margin-right: .25%;
+  background-color: teal;
+  color: cornsilk;
+}
+
+button[type="submit"] {
+  margin-left: 10px;
+}
+
+hr {
+  color: cornsilk;
+}
+
+svg {
+  height: 70%;
+  width: 70%;
+  stroke: cornsilk;
+  fill: cornsilk;
+}
+
+footer {
+  background-color: darkslategray;
+  height: 75px;
+}
+
+footer > div > p > a {
+  color: orange;
+}
+
+footer > div > p > a:hover {
+  color: gold;
+}
+
+/***** - Set Main Section Dimensions - *****/
+
+footer, .about, .portfolio, .contact {
+  height: 100%;
+  width: 100%;
+}
+
+/***** - Top Navbar Formatting - *****/
+
+#top {
+  height: 60px;
+}
+
+body > nav.navbar {
+  background-color: #460904; /* #951c1c C47714; */
+  border: none;
+}
+
+.navbar-right-side {
+  padding-top: 2.25rem;
+  vertical-align: middle;
+}
+
+nav > div > div > a.navbar-header {
+  display: block;
+}
+
+.nav-title-spacing {
+  width: 250px;
+}
+
+.search-box {
+  margin-top: 0;
+}
+
+#button-row-nav, .btn-group.navbar-buttons {
+  vertical-align: middle;
+}
+
+.btn.btn-primary, .btn.btn-success {
+  margin: 0 10px;
+  opacity: 0.5;
+  transition: all .2s ease-in-out;
+}
+
+.btn.btn-primary:hover, .btn.btn-success:hover {
+  transform: scale(1.15);
+  opacity: 1.0;
+}
+
+.about-btn, .portfolio-btn, .contact-btn {
+  
+}
+
+.top-btn {
+  margin-left: 3rem;
+  background: cornsilk;
+}
+
+#nav-animation {
+  background-color: darkslategray;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+  /* box-shadow: 10px -5px 12px #708090; */
+  animation: slide-in 2.5s 1;
+}
+
+@keyframes slide-in { from { transform: translateX(100%); } to { transform: translateX(0%) } }
+
+.navbar-header {
+  height: 80px;
+}
+
+#nav-title {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: cornsilk;
+  font-size: 18px;
+  text-align: center;
+  padding-top: 4%;
+}
+
+#brand-icon {
+  z-index: 1;
+  margin-top: -12.5%;
+  animation: fadein 4s 1;
+}
+@keyframes fadein { from { opacity: 0.0; } to { opacity: 1.0; } }
+
+/***** - Header/Jumbotron Section Formatting - *****/
+
+.portfolio-header {
+  color: cornsilk;
+  height: 75rem;
+  padding: 2.5rem;
+  background-image: url('https://s6.postimg.org/8brea67i9/Top_view.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-color: teal;
+  -webkit-border-radius: 2.5rem;
+  -moz-border-radius: 2.5rem;
+  -o-border-radius: 2.5rem;
+  -ms-border-radius: 2.5rem;
+  border-radius: 2.5rem;
+}
+
+/* .color-overlay {
+    z-index: 1;
+    background-color: rgba(0, 128, 128, 0.4);
+    position: absolute;
+    width: 100%;
+} */
+
+.vcenter {
+  padding-top: .25rem;
+}
+
+/***** - About Section Formatting - *****/
+
+/* Empty formatting for the button in jQuery action */
+#about {
+  
+}
+
+.about {
+  height: absolute;
+  background-color: darkslategrey;
+  border-radius: 4rem;
+  margin: 0rem 1rem 1rem 1rem;
+}
+
+div.col-md-6.about-pic {
+  height: 135vh;
+  width: 50%;
+  float: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 0px;
+  padding-top: 2rem;
+  background-color: teal;
+  border-left: 5px solid rgba(128,128,128,0.8);
+  border-top-right-radius: 2.5rem;
+  border-bottom-right-radius: 2.5rem;
+}
+
+div.col-md-6.about-pic > a {
+  height: 100%;
+  padding: 2rem;
+  border-radius: 50%;
+}
+
+div.col-md-6.about-pic > a > img {
+  /* vertical-align: middle; */
+  /* margin-left: 20%; */
+  float: none;
+  height: 90%;
+  width: 90%;
+  border-radius: 50%;
+  border: 4px solid cornsilk;
+  box-shadow: 5px 5px 0px #460904, -5px -5px 0px #460904, 11px 11px 7px darkslategray;
+}
+
+.bio {
+  height: 100%;
+  width: 50%;
+  float: left;
+  background-color: darkslategrey;
+  padding: 9rem 0rem 9rem 4rem;
+  font-family: Raleway, Helvetica, sans-serif;
+  color: cornsilk;
+  border-top-left-radius: 2.5rem;
+  border-bottom-left-radius: 2.5rem;
+}
+
+.bio > h2 {
+  font-weight: 700;
+  text-decoration: underline;
+  margin-bottom: 2rem;
+}
+
+.bio > ul {
+  margin-right: 6rem;
+  padding: 3rem;
+  background-color: teal;
+  border: 4px solid #460904;
+  border-radius: 5rem;
+  box-shadow: 6px 6px 4px rgb(128,128,128);
+}
+
+.bio > button {
+  /* margin-top: 20rem;
+  margin-top: 3rem; */
+  background-color: cornsilk;
+}
+
+/***** - Portfolio Section Formatting - *****/
+
+.portfolio {
+  background-color: darkslategray;
+  border-radius: 2rem;
+}
+
+div.thumbnail {
+  border-radius: 4rem;
+  background-color: teal;
+  box-shadow: 5px 5px 8px #c0c0c0;
+}
+
+div.thumbnail > div.caption {
+  color: cornsilk;
+}
+
+div.thumbnail > img, div.thumbnail > iframe {
+  height: 200px;
+  width: 100%;
+  border-top-left-radius: 4rem;
+  border-top-right-radius: 4rem;
+  display: block;
+}
+
+/***** - Contact Section  & Footer - *****/
+
+.contact {
+  margin: 1rem 0;
+  background-color: teal;
+  border-radius: 4rem;
+}
+
+div.contact > div.container-fluid.center-block > div.row > ul {
+  padding: 2rem 0 0 0;
+  margin-bottom: 0;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  list-style-type: none;
+}
+
+.colophon {
+  font-family:  'Source Sans Pro', sans-serif;
+  color: cornsilk;
+  padding: 1.5rem 0;
+}
