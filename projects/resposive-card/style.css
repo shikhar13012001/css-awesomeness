@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Manrope", sans-serif;
+}
+
+.container {
+  background-color: #3f93b7;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+@media screen and (max-width: 1024px) {
+  .container {
+    flex-direction: column;
+  }
+  .container > div:nth-child(2) {
+    scale: 0.9;
+  }
+  .container > div:nth-child(2):hover {
+    scale: 1;
+  }
+}
+
+.container > div:nth-child(1),
+.container > div:nth-child(3) {
+  scale: 0.9;
+}
+
+.container > div:nth-child(1):hover,
+.container > div:nth-child(3):hover {
+  scale: 1;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  transition: scale 150ms ease;
+  box-shadow: 0 0 10px #00000020;
+  user-select: none;
+}
+
+.card:hover {
+  scale: 1.1;
+}
+
+.card > div {
+  padding: 40px 60px;
+}
+
+.card-header {
+  background-color: #fb434b;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.card-header::after {
+  content: "";
+  width: 25px;
+  height: 25px;
+  rotate: 45deg;
+  background-color: #fb434b;
+  position: absolute;
+  bottom: -7px;
+}
+
+.card-header p {
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.card-body {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding-bottom: 60px !important;
+}
+
+.price {
+  color: #444;
+  position: relative;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.save p {
+  color: #666;
+}
+
+.price p span:nth-child(1) {
+  left: 0;
+  top: 16px;
+  position: absolute;
+}
+.price p span:nth-child(2) {
+  font-size: 60px;
+  font-weight: 800;
+  margin-left: 14px;
+}
+
+.buy-btn a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background-color: #fe8a30;
+  padding: 20px 60px;
+  color: #fff;
+  font-size: 18px;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: 500;
+}
+
+.buy-btn a img {
+  height: 14px;
+  filter: invert(1);
+}
+
+.month {
+  background-color: #e9fbff;
+  padding: 10px 20px;
+  border-radius: 40px;
+}
+
+.card-1 > .card-header,
+.card-3 > .card-header {
+  background-color: #12a9c6;
+}
+
+.card-1 > .card-header::after,
+.card-3 > .card-header::after {
+  content: "";
+  width: 25px;
+  height: 25px;
+  rotate: 45deg;
+  background-color: #12a9c6;
+  position: absolute;
+  bottom: -7px;
+}
