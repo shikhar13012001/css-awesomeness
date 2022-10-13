@@ -25,6 +25,7 @@ Please read the following before contributing to the repository:
 - [checkbox-animation](./projects/checkbox-animation) 
 - [custom-checkbox](./projects/custom-checkbox) 
 - [custom-radio-button](./projects/custom-radio-button) 
+- [dad-jokes](./projects/dad-jokes) 
 - [dice-loader](./projects/dice-loader) 
 - [faq-collapse](./projects/faq-collapse) 
 - [folded-card](./projects/folded-card) 
