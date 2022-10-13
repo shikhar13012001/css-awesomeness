@@ -21,6 +21,7 @@ Please read the following before contributing to the repository:
 - [animated-button](./projects/animated-button) 
 - [bar-loader](./projects/bar-loader) 
 - [checkbox-animation](./projects/checkbox-animation) 
+- [custom-checkbox](./projects/custom-checkbox) 
 - [custom-radio-button](./projects/custom-radio-button) 
 - [dice-loader](./projects/dice-loader) 
 - [hamburger-menu](./projects/hamburger-menu) 
