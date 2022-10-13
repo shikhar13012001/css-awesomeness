@@ -1,0 +1,51 @@
+
+.giff {
+    text-align: center;
+ }
+ 
+ .insta {
+     text-align:bottom;
+ 
+ }
+ 
+ .secondheader {
+   position: relative;
+   background: url(https://usatelections.files.wordpress.com/2014/03/palmtrees.jpg) no-repeat center center fixed;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+ text-align: center;
+ color: #634864;
+ padding-top: 190px;
+ min-height:202px;
+ letter-spacing: 13px;
+ font-family: "Lucidatypewriter, monospace";
+ }
+ 
+ body {
+   background:white;
+ 
+ }
+ 
+ p {
+   color:red;
+   font-style:italic;
+ }
+ 
+  a {
+    
+    body {
+   background:Blue;
+ 
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
