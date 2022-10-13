@@ -40,6 +40,7 @@ Please read the following before contributing to the repository:
 - [namita-portfolio](./projects/namita-portfolio) 
 - [portfolio](./projects/portfolio) 
 - [progress-loader](./projects/progress-loader) 
+- [random-quote](./projects/random-quote) 
 - [resposive-card](./projects/resposive-card) 
 - [rock-paper](./projects/rock-paper) 
 - [slider-loader](./projects/slider-loader) 
