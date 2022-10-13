@@ -1,0 +1,122 @@
+body{
+    background-color:#D9CBBF ;
+}
+.card{
+    margin: 50px auto;
+    width: 300px;
+    height: 400px;
+    border-radius: 30px;
+    overflow: hidden;
+    backface-visibility: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+    transition: all .25s ease;
+}
+.card .content p{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+    font-size: 1rem;
+    opacity: 0;
+    margin-bottom: -160px;
+    transition: all .25s ease;
+}
+.card .content p button{
+    padding: 8px  18px;
+    border-radius: 10px;
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    font-size: .8rem;
+    margin-top: 10px;
+    margin-left: auto;
+    cursor: pointer;
+    transition: all .25s ease;
+}
+.card:hover .content p{
+    margin-bottom: 0;
+    opacity: 1;
+}
+.card:hover img{
+    transform: scale(1.50);
+}
+.card:hover ul{
+    transform: translate(0);
+    opacity: 1;
+}
+.card:after{
+    width: 100%;
+    content: "";
+    left: 0;
+    bottom: 0;
+    height: 150px;
+    position: absolute;
+    background: linear-gradient(180deg, rgba(0,0,0,0)0%,rgba(0,0,0,1)100%);
+    z-index: 20;
+    transition: all .25s ease;
+}
+.card img{
+    height: 112%;
+    z-index: 10;
+    transition: all .25s ease;
+}
+.card .content{
+    z-index: 30;
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    padding: 20px;
+    padding-bottom: 20px;
+}
+.card .content p button:hover{
+    background: #fff;
+    color: #000;
+}
+ul{
+    position: absolute;
+    right: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 40;
+    border-radius: 15px;
+    padding-left: 0;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    top: 0;
+    opacity: 0;
+    transform: translate(100%);
+    transition: all .25s ease;
+}
+ul li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backface-visibility: hidden;
+    width: 35px;
+    height: 35px;
+    background: #fff;
+    opacity: .7;
+    list-style: none;
+    transition: all .25s ease;
+}
+ul li:last-child{
+    border-radius: 0 0 10px 10px;
+}
+ul li:first-child{
+    border-radius: 10px 10px 0 0;
+}
+ul li:hover{
+    opacity: 1;
+    transform: translate(-7px, -4px);
+    border-radius: 6px;
+}
+ul li i{
+    font-size: 1rem;
+    color: #000;
+}
