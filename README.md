@@ -34,6 +34,7 @@ Please read the following before contributing to the repository:
 - [folded-card](./projects/folded-card) 
 - [hamburger-menu](./projects/hamburger-menu) 
 - [hidden-search](./projects/hidden-search) 
+- [hover-card](./projects/hover-card) 
 - [loader-dots](./projects/loader-dots) 
 - [loader_dots](./projects/loader_dots) 
 - [namita-portfolio](./projects/namita-portfolio) 
