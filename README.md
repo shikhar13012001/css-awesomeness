@@ -30,6 +30,7 @@ Please read the following before contributing to the repository:
 - [custom-radio-button](./projects/custom-radio-button) 
 - [dad-jokes](./projects/dad-jokes) 
 - [dice-loader](./projects/dice-loader) 
+- [drink-water](./projects/drink-water) 
 - [faq-collapse](./projects/faq-collapse) 
 - [folded-card](./projects/folded-card) 
 - [hamburger-menu](./projects/hamburger-menu) 
