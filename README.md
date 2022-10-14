@@ -17,6 +17,7 @@ Please read the following before contributing to the repository:
  
 - [3d-layer-loader](./projects/3d-layer-loader) 
 - [Bubble Coloring Animated Button Template](./projects/Bubble Coloring Animated Button Template) 
+- [Order Card HTML CSS](./projects/Order Card HTML CSS) 
 - [Ripple Button](./projects/Ripple Button) 
 - [Sonar Radar](./projects/Sonar Radar) 
 - [Typography](./projects/Typography) 
