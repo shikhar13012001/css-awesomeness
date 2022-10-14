@@ -1,0 +1,12 @@
+Cython
+pystan==2.19.1.1
+fbprophet==0.7.1
+keras==2.8.0
+numpy==1.22.2
+pandas==1.4.2
+plotly==5.8.0
+scikit_learn==1.1.1
+streamlit==1.9.0
+streamlit_option_menu==0.3.2
+tensorflow==2.8.0
+yfinance==0.1.70
