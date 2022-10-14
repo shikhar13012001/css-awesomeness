@@ -1,0 +1,87 @@
+body {
+  background-color: black;
+  display: grid;
+  place-items: center;
+}
+
+:root {
+  --duration: 2s;
+}
+
+@property --angle {
+  syntax: '<angle>';
+  initial-value: 0deg;
+  inherits: false;
+}
+
+.sonar {
+/*   Change this font-size to change size */
+  font-size: 10px; 
+  
+  width: 40em;
+  aspect-ratio: 1;
+  margin: 0.6125rem;
+  border-radius: 100%;
+
+  display: grid;
+  place-items: center;
+
+  --angle: 0deg;
+  background-image: 
+    radial-gradient(
+      lime, 
+      lime 1em, 
+      transparent 2em,
+      transparent ),
+    repeating-conic-gradient(
+      from 31.5deg,
+      transparent,
+      transparent 57deg,
+      lime  58deg,
+      lime  60deg),
+    repeating-radial-gradient(
+      transparent,
+      transparent 4.8em,
+      lime 4.8em,
+      lime 5em),
+    conic-gradient(
+      from var(--angle),
+      white, lime 1deg,
+      darkgreen 3deg,
+      green 165deg,
+      darkgreen 330deg,
+      lime 359deg);
+  animation: sonar-anim var(--duration) infinite linear;
+}
+
+.sonar:before {
+  content: '';
+  grid-area: 1 /1;
+  width: 3em;
+  height: 3em;
+  position: relative;
+  top: 7em;
+  right: 6em;
+  background-image: radial-gradient(
+    lime,
+    lime 0.5em,
+    transparent 1em,
+    transparent);
+  border-radius: 100%;
+  animation: blip-anim var(--duration) infinite ease-in-out;
+}
+@keyframes sonar-anim {
+  0%   {--angle: 0deg}
+  50%  {--angle: 180deg;}
+  100% {--angle: 359deg;}
+}
+
+@keyframes blip-anim {
+  0%   {transform: scale(0);}
+  59%  {transform: scale(0);}
+  60%  {transform: scale(1);}
+  65%  {transform: scale(2);}
+  75%  {transform: scale(0.5);}
+  76%  {transform: scale(0);}
+  100% {transform: scale(0);}
+}
