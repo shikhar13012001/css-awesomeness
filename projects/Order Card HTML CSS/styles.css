@@ -1,0 +1,273 @@
+///// VARIABLES /////////
+// ## Colors
+
+// ### Primary
+
+$white: hsl(0, 0%, 100%);
+
+$paleBlue: hsl(225, 100%, 94%);
+$brightBlue: hsl(245, 75%, 52%);
+
+// ### Neutral
+
+$veryPaleBlue: hsl(225, 100%, 98%);
+$desaturatedBlue: hsl(224, 23%, 55%);
+$darkBlue: hsl(223, 47%, 23%);
+///// VARIABLES /////////
+
+///// MIXIN /////////
+//Breakpoint
+//
+// 640px - 1024px - 1400px
+$breakpoints-up: (
+  "medium": "40em",
+  "large": "64em",
+  "xlarge": "87.5em"
+);
+
+// 639px - 1023px - 1399px
+$breakpoints-down: (
+  "small": "39.9375em",
+  "medium": "63.9375em",
+  "large": "87.4375em"
+);
+
+@mixin breakpoint-up($size) {
+  @media (min-width: map-get($breakpoints-up, $size)) {
+    @content;
+  }
+}
+
+@mixin breakpoint-down($size) {
+  @media (max-width: map-get($breakpoints-down, $size)) {
+    @content;
+  }
+}
+///// MIXIN /////////
+
+///// GLOBAL /////////
+*,
+::after,
+::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Red Hat Display", sans-serif;
+  overflow-x: hidden;
+  color: $desaturatedBlue;
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("https://raw.githubusercontent.com/MizAndhre/Order-summary-component/de03b87570c21dce7dc9ab2172f87f048da4b92c/images/pattern-background-desktop.svg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: $paleBlue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  @include breakpoint-down(medium) {
+    background-image: url("https://raw.githubusercontent.com/MizAndhre/Order-summary-component/de03b87570c21dce7dc9ab2172f87f048da4b92c/images/pattern-background-mobile.svg");
+  }
+}
+
+//Order component
+.order {
+  &-container {
+    width: 32.7rem;
+    height: 56.7rem;
+    background-color: $white;
+    border-radius: 1.5rem;
+
+    @include breakpoint-up(large) {
+      width: 45rem;
+      height: 69.7rem;
+    }
+  }
+
+  // Image
+  &-img {
+    width: 100%;
+    height: 16rem;
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+    overflow: hidden;
+
+    img {
+      width: 100%;
+    }
+
+    @include breakpoint-up(large) {
+      height: 22rem;
+    }
+  }
+
+  //Content
+  &-content {
+    padding: 3rem 2.3rem;
+    text-align: center;
+
+    @include breakpoint-up(large) {
+      padding: 4.5rem 4.8rem;
+    }
+
+    > h1 {
+      font-weight: 900;
+      color: $darkBlue;
+      font-size: 2.2rem;
+      padding-bottom: 1.8rem;
+
+      @include breakpoint-up(large) {
+        font-size: 2.7rem;
+        padding-bottom: 1.8rem;
+      }
+    }
+
+    > p {
+      font-size: 1.6rem;
+      font-weight: 500;
+      line-height: 1.6;
+      padding: 0 0.8rem;
+
+      @include breakpoint-up(large) {
+        font-size: 1.7rem;
+      }
+    }
+
+    &-plan {
+      width: 100%;
+      margin: 2.4rem 0;
+      background-color: $veryPaleBlue;
+      border-radius: 1rem;
+      padding: 1.5rem;
+      display: flex;
+      align-items: center;
+
+      @include breakpoint-up(large) {
+        padding: 2.2rem;
+        margin-bottom: 3rem;
+      }
+
+      &-text {
+        padding-left: 1.5rem;
+
+        @include breakpoint-up(large) {
+          padding-left: 2.1rem;
+        }
+
+        > h2 {
+          padding-bottom: 0.5rem;
+          color: $darkBlue;
+          font-size: 1.5rem;
+          font-weight: 700;
+
+          @include breakpoint-up(large) {
+            font-size: 1.7rem;
+            padding-bottom: 0.5rem;
+          }
+        }
+
+        > p {
+          font-size: 1.4rem;
+          font-weight: 500;
+
+          @include breakpoint-up(large) {
+            font-size: 1.7rem;
+          }
+        }
+      }
+
+      > span {
+        display: inline-block;
+        padding-left: 4.5rem;
+        text-align: end;
+        font-size: 1.3rem;
+        text-decoration: underline;
+        color: $brightBlue;
+        font-weight: 700;
+
+        @include breakpoint-up(large) {
+          padding-left: 8.6rem;
+          font-size: 1.4rem;
+        }
+
+        &:hover {
+          cursor: pointer;
+          text-decoration: none;
+          opacity: 0.7;
+        }
+      }
+    }
+
+    &-payment {
+      > button {
+        font-family: inherit;
+        width: 100%;
+        padding: 1.6rem 0;
+        margin-bottom: 2rem;
+        background-color: $brightBlue;
+        font-size: 1.5rem;
+        font-weight: 700;
+        color: $white;
+        border: none;
+        border-radius: 1rem;
+        box-shadow: 0 10px 10px 10px rgba($brightBlue, 0.15);
+
+        @include breakpoint-up(large) {
+          margin-bottom: 2.9rem;
+        }
+
+        &:hover {
+          cursor: pointer;
+          opacity: 0.7;
+        }
+      }
+      > p {
+        font-size: 1.5rem;
+        font-weight: 900;
+
+        &:hover {
+          cursor: pointer;
+          color: $darkBlue;
+        }
+      }
+    }
+  }
+}
+
+.attribution {
+  text-align: center;
+  font-size: 1.5rem;
+  padding-bottom: 2rem;
+  background-color: $paleBlue;
+  font-weight: 500;
+
+
+  a {
+    color: $darkBlue;
+    text-decoration: none;
+    transition: color 200ms ease-in-out;
+
+    &:hover {
+      color: $brightBlue;
+    }
+
+    i {
+      margin-top: 1rem;
+      font-size: 2.5rem;
+      padding-right: 1rem;
+    }
+  }
+}
+///// GLOBAL /////////
