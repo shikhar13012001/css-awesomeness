@@ -1,0 +1,286 @@
+/* THIS IS STYLESHEET */
+
+@font-face {
+    font-family: regular;
+    src: url(font/regular.ttf);
+}
+
+@font-face {
+    font-family: bold;
+    src: url(font/bold.ttf);
+}
+html {
+  font-family: sans-serif;
+  scroll-snap-type: mandatory;
+  scroll-snap-points-y: repeat(100vh);
+  scroll-snap-type: y mandatory;
+}
+.child {
+  border-bottom: 1px solid white;
+  height: 100vh;
+  scroll-snap-align: center;
+  text-align: center;
+  position: relative;
+}
+body {
+    min-height: 100vh;
+    width: 100%;
+    overflow-x: hidden;
+}
+*{
+    margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+}
+
+#at {
+    z-index: 2;
+    opacity: 0;
+    position: fixed;
+    color: white;
+    text-shadow: 1px 1px black;
+    margin-left: 20px;
+    height: calc(10vh);
+    width: calc(45vw);
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    font-family: bold;
+}
+
+#abps {
+    z-index: 1;
+    opacity: 0;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+    height: calc(10vh);
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    width: 100vw;
+}
+
+.all_page_button1 {
+    margin-left: 20px;
+    margin-right: 10px;
+    border: 2px solid black;
+    background-color: #4CAF50;
+    border-radius: 10px;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    transition-duration: 0.4s;
+}
+
+.all_page_button1:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.all_page_button2 {
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 2px solid black;
+    background-color: #4CAF50;
+    border-radius: 10px;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    transition-duration: 0.4s;
+}
+
+.all_page_button2:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+#home_box {
+    height: calc(100vh);
+    width: calc(100vw);
+}
+
+.home {
+    background-image: url(img/IntroducingBudgetPlanner.png);
+    background-position: center;
+    height: calc(100vh);
+    width: calc(100vw);
+    overflow: hidden;
+
+    font-family: bold;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+}
+
+/* .home_text {
+    width: calc(80vw);
+} */
+
+.home_text1 {
+    text-shadow: 1px 1px black;
+    font-size: 40px;
+}
+
+.home_text2 {
+    text-shadow: 1px 1px black;
+    font-size: 100px;
+}
+
+.main_page_buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.main_page_button1 {
+    border: 2px solid black;
+    background-color: #4CAF50;
+    border-radius: 10px;
+    color: white;
+    padding: 15px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    transition-duration: 0.4s;
+}
+
+.main_page_button1:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.main_page_button2 {
+    border: 2px solid black;
+    background-color: #4CAF50;
+    border-radius: 10px;
+    color: white;
+    padding: 15px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin-left: calc(3vw);
+    transition-duration: 0.4s;
+}
+
+.main_page_button2:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.content {
+    text-shadow: 1px 1px black;
+    font-family: bold;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#one_text_ {
+    z-index: 0;
+    position: relative;
+}
+
+#one_text__ {
+    position: relative;
+}
+
+#one_text___ {
+    position: relative;
+}
+
+.one_text {
+    width: calc(80vw);
+}
+
+.one_text1 {
+    font-size: 60px;
+}
+
+.one_text2 {
+    margin-top: 20px;
+    text-align: justify;
+    font-size: 30px;
+    line-height: 50px;
+}
+
+#one {
+    background-image: url(img/VisualiseFinancialActivities.png);
+    background-position: center;
+    height: calc(100vh);
+    width: calc(100vw);
+    overflow: hidden;
+}
+
+#two {
+    background-image: url(img/KeepTrackOfStocks.png);
+    background-position: center;
+    height: calc(100vh);
+    width: calc(100vw);
+    overflow: hidden;
+}
+
+#three {
+    background-image: url(img/LeapAheadOfTime.png);
+    background-position: center;
+    height: calc(100vh);
+    width: calc(100vw);
+    overflow: hidden;
+}
+
+@media (max-width: 800px) {
+    .home_text1 {
+        text-shadow: 1px 1px black;
+        font-size: 40px;
+        text-align: center;
+    }
+    
+    .home_text2 {
+        text-shadow: 1px 1px black;
+        font-size: 100px;
+        text-align: center;
+    }
+
+    .one_text1 {
+        font-size: 40px;
+    }
+    
+    .one_text2 {
+        margin-top: 10px;
+        text-align: justify;
+        font-size: 20px;
+        line-height: 50px;
+    }
+
+    #at {
+        font-size: 30px;
+    }
+
+    .all_page_button1 {
+        margin-left: 10px;
+        margin-right: 5px;
+    }
+    
+    .all_page_button2 {
+        margin-left: 5px;
+        margin-right: 10px;
+    }
+}
