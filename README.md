@@ -18,6 +18,7 @@ Please read the following before contributing to the repository:
 - [3d-layer-loader](./projects/3d-layer-loader) 
 - [Bubble Coloring Animated Button Template](./projects/Bubble Coloring Animated Button Template) 
 - [Ripple Button](./projects/Ripple Button) 
+- [Sonar Radar](./projects/Sonar Radar) 
 - [Typography](./projects/Typography) 
 - [animated-button](./projects/animated-button) 
 - [animated-countdown](./projects/animated-countdown) 
