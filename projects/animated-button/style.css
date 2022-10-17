@@ -6,8 +6,8 @@
   outline: 0;
   border: 1px solid rgb(255, 255, 255);
   cursor: pointer;
-  position: relative;
-  background-color: rgba(0, 0, 0, 0);
+  position: absolute;
+  background-color:  rgba(251, 251, 251, 0.2);
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
