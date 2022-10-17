@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+h2 Marquee with text
+.marquee
+  .marquee-content During a test yesterday, SpaceX fired up the engines on one of its Falcon 9 rockets, a vehicle that will perform a crucial test flight for NASA in the months ahead.
+  
+.marquee
+  .marquee-content The two spacecraft also provide us with stunning views of our planet.
+  
+h2 Marquee with image
+.marquee
+  .marquee-content
+    each image in [1012,1014,1024,103,1031]
+      img(src=`https://picsum.photos/id/${image}/300/200`)
+
+
+h2 Marquee down
+.marquee.marquee-down
+  .marquee-content
+    each image in [104,1040,1048,1052,11]
+      img(src=`https://picsum.photos/id/${image}/300/200`)
+  
+
+</body>
+</html>

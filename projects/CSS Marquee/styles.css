@@ -1,0 +1,42 @@
+@keyframes marquee {
+  to {
+    transform: translate(var(--marquee-x,-100%), var(--marquee-y,0));
+  }
+}
+
+.marquee {
+  $this: &;
+  overflow: hidden;
+  &-content {
+    animation: marquee var(--marquee-duration,20s) infinite linear;
+    position: relative;
+    padding-left: 100%;
+    width: max-content;
+    &:hover {
+      animation-play-state: paused;
+    }
+  }
+  &-down {
+    --marquee-height: 200px;
+    --marquee-y: -100%;
+    --marquee-x: 0;
+    height: var(--marquee-height);
+    #{$this}-content {
+      display:flex;
+      flex-direction: column;
+      padding-left: 0;
+      padding-top: var(--marquee-height);
+    }
+  }
+}
+
+/*! Solo demo */
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 2rem;
+}
