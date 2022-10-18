@@ -21,6 +21,7 @@ Please read the following before contributing to the repository:
 - [CSS Marquee](./projects/CSS Marquee) 
 - [Order Card HTML CSS](./projects/Order Card HTML CSS) 
 - [Ripple Button](./projects/Ripple Button) 
+- [Rotating animation](./projects/Rotating animation) 
 - [Sonar Radar](./projects/Sonar Radar) 
 - [Typography](./projects/Typography) 
 - [animated-button](./projects/animated-button) 
