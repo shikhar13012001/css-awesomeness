@@ -9,9 +9,9 @@
   overflow: hidden;
   &-content {
     animation: marquee var(--marquee-duration,20s) infinite linear;
-    position: relative;
+    position: absolute;
     padding-left: 100%;
-    width: max-content;
+    width: 100%;
     &:hover {
       animation-play-state: paused;
     }
@@ -38,5 +38,5 @@
 }
 
 body {
-  padding: 2rem;
+  padding: 5rem;
 }
