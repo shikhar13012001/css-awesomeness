@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel Blog</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- <script src="./index.js"></script> -->
+</head>
+<body onload="content()">
+  <div class="wallpaper">
+    <p>Lost In Translation</p>
+  </div>
+  <nav class="navbar">
+    <div class="logo">
+      <img src="logo.jpg" alt="Blog">
+    </div>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="#">Blog</a></li>
+      <li><a href="#">Login</a></li>
+      <li><a href="#">Saved Blogs</a></li>
+    </ul>
+  </nav>
+  <section>
+    <h1 class="heading">Featured Blogs</h1>
+    <div class="blogs"></div>
+  </section>
+
+  <section class="submit-blog">
+    <input type="text" placeholder="Writer's Name">
+    <textarea class="description" cols="30" rows="10" placeholder="Write Your Blog here"></textarea>
+    <div><button class="btn">Submit</button></div>
+  </section>
+
+
+  <script type="text/javascript">
+    function content(){
+    let blogs = document.querySelector(".blogs");
+    
+    for(let i = 0; i<8; i++){
+      console.log("reloaded");
+      blogs.innerHTML += `
+      <div class="blog">
+        <img src="https://random.imagecdn.app/250/250">
+        <div class = "blog-content">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
+             eaque nostrum laboriosam reiciendis iste, cumque consequatur velit voluptates eveniet nam exercitationem, 
+            fugit ipsa saepe officia totam officiis reprehenderit, at qui!
+          </p>
+          <br>
+          <button class = "btn"> Read More </button>
+        </div>
+      </div> `
+    }
+  }
+  </script>
+</body>
+</html>
