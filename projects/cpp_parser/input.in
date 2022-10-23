@@ -1,0 +1,7 @@
+int main()
+{
+    int x = 4, i = 0, ans = 0;
+    for(i =0;i<x;i++)
+        ans += 4;
+    return ans;                    
+}
