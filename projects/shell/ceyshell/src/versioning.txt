@@ -1,0 +1,13 @@
+ceyshell.cpp >>> done except history; pipes; bg,fr;
+ceyshell2.cpp >>> ceyshell + history
+ceyshell3.cpp >>> untracked changes
+ceyshell4.cpp >>> ceyshell3 + foreground processes
+ceyshell5.cpp >>> FAILED to intergrate &&; attempting to implement pipe;
+              >>> terminal beautification
+	      >>> 2 command split successful based on presence of && & |
+	      >>> && successfully implemented
+	      >>> code cleaning
+ceyshell6.cpp >>> clean code;
+	      >>> attempting pipes yet again
+	      >>> implemented pipe using systemcall
+	      >>> pipe code can be cleaned
