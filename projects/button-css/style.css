@@ -10,7 +10,7 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 320px;
+  height: 325px;
   position: relative;
 }
 .wallpaper p{
@@ -20,7 +20,7 @@ body{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: bolder;
   font-size: 5rem;
-  color: white;
+  color: black;
   padding: 10px;
   border-radius: 8px;
 }
