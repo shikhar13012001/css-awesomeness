@@ -19,6 +19,7 @@ Please read the following before contributing to the repository:
 - [Bubble Coloring Animated Button Template](./projects/Bubble Coloring Animated Button Template) 
 - [Budget-Planner](./projects/Budget-Planner) 
 - [CSS Marquee](./projects/CSS Marquee) 
+- [Diamond shape HTML &amp; CSS](./projects/Diamond shape HTML &amp; CSS) 
 - [Dropdown HTML &amp; CSS](./projects/Dropdown HTML &amp; CSS) 
 - [Order Card HTML CSS](./projects/Order Card HTML CSS) 
 - [Ripple Button](./projects/Ripple Button) 
