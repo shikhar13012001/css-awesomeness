@@ -21,6 +21,7 @@ Please read the following before contributing to the repository:
 - [CSS Marquee](./projects/CSS Marquee) 
 - [Diamond shape HTML &amp; CSS](./projects/Diamond shape HTML &amp; CSS) 
 - [Dropdown HTML &amp; CSS](./projects/Dropdown HTML &amp; CSS) 
+- [Glow on hover button HTML &amp; CSS](./projects/Glow on hover button HTML &amp; CSS) 
 - [Order Card HTML CSS](./projects/Order Card HTML CSS) 
 - [Ripple Button](./projects/Ripple Button) 
 - [Rotating animation](./projects/Rotating animation) 
