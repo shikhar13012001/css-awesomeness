@@ -16,6 +16,7 @@ Please read the following before contributing to the repository:
 
  
 - [3d-layer-loader](./projects/3d-layer-loader) 
+- [Animated_Button_Dipesh](./projects/Animated_Button_Dipesh) 
 - [Bubble Coloring Animated Button Template](./projects/Bubble Coloring Animated Button Template) 
 - [Budget-Planner](./projects/Budget-Planner) 
 - [CSS Marquee](./projects/CSS Marquee) 
