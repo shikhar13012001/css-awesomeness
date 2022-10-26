@@ -1,0 +1,4 @@
+~ part1: q1; number of context switches (h)
+~ part1: q3; c) d) e)
+- part 2: add pipes using pipe() 
+	: ^C should not kill the shell
