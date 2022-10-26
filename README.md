@@ -35,6 +35,7 @@ Please read the following before contributing to the repository:
 - [calculator](./projects/calculator) 
 - [calculator.css](./projects/calculator.css) 
 - [checkbox-animation](./projects/checkbox-animation) 
+- [cpp_parser](./projects/cpp_parser) 
 - [custom-checkbox](./projects/custom-checkbox) 
 - [custom-radio-button](./projects/custom-radio-button) 
 - [dad-jokes](./projects/dad-jokes) 
@@ -57,6 +58,7 @@ Please read the following before contributing to the repository:
 - [random-quote](./projects/random-quote) 
 - [resposive-card](./projects/resposive-card) 
 - [rock-paper](./projects/rock-paper) 
+- [shell](./projects/shell) 
 - [slider-loader](./projects/slider-loader) 
 - [wave-loader](./projects/wave-loader)
 
