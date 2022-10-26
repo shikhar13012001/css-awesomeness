@@ -23,6 +23,7 @@ Please read the following before contributing to the repository:
 - [Dropdown HTML &amp; CSS](./projects/Dropdown HTML &amp; CSS) 
 - [Film grain effect HTML &amp; CSS](./projects/Film grain effect HTML &amp; CSS) 
 - [Glow on hover button HTML &amp; CSS](./projects/Glow on hover button HTML &amp; CSS) 
+- [Interactive Checkbox](./projects/Interactive Checkbox) 
 - [Order Card HTML CSS](./projects/Order Card HTML CSS) 
 - [Progress Circle HTML CSS](./projects/Progress Circle HTML CSS) 
 - [Ripple Button](./projects/Ripple Button) 
