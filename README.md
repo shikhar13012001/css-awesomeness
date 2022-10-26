@@ -32,6 +32,7 @@ Please read the following before contributing to the repository:
 - [Social Media Link Bar HTML &amp; CSS](./projects/Social Media Link Bar HTML &amp; CSS) 
 - [Social media follower countdown](./projects/Social media follower countdown) 
 - [Sonar Radar](./projects/Sonar Radar) 
+- [Tamosa_Css_button](./projects/Tamosa_Css_button) 
 - [Typography](./projects/Typography) 
 - [animated-button](./projects/animated-button) 
 - [animated-countdown](./projects/animated-countdown) 
