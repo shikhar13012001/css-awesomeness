@@ -1,0 +1,62 @@
+:root {
+  --main-blue: hsl(191, 100%, 50%);
+  --light-blue: hsl(191, 100%, 60%);
+  --dark-blue: hsl(191, 100%, 40%);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.diamond {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  transform: rotate(45deg);
+}
+
+.diamond>:nth-child(1) {
+  width: 0;
+  height: 0;
+  position: absolute;
+  border-right: 50px solid var(--main-blue);
+  border-left: 50px solid transparent;
+  border-top: 50px solid transparent;
+  border-bottom: 50px solid var(--main-blue);
+}
+
+.diamond>:nth-child(2) {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  border-right: 50px solid var(--dark-blue);
+  border-left: 50px solid var(--light-blue);
+  border-top: 50px solid var(--main-blue);
+  border-bottom: 50px solid var(--main-blue);
+  
+}
+
+.diamond>:nth-child(3) {
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  border-right: 50px solid var(--main-blue);
+  border-left: 50px solid var(--main-blue);
+  border-top: 50px solid var(--light-blue);
+  border-bottom: 50px solid var(--dark-blue);
+}
+
+.diamond>:nth-child(4) {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-right: 50px solid var(--main-blue);
+  border-left: 50px solid var(--light-blue);
+  border-top: 50px solid var(--light-blue);
+  border-bottom: 50px solid var(--dark-blue);
+}
