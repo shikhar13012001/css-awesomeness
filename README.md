@@ -24,6 +24,7 @@ Please read the following before contributing to the repository:
 - [Film grain effect HTML &amp; CSS](./projects/Film grain effect HTML &amp; CSS) 
 - [Glow on hover button HTML &amp; CSS](./projects/Glow on hover button HTML &amp; CSS) 
 - [Order Card HTML CSS](./projects/Order Card HTML CSS) 
+- [Progress Circle HTML CSS](./projects/Progress Circle HTML CSS) 
 - [Ripple Button](./projects/Ripple Button) 
 - [Rotating animation](./projects/Rotating animation) 
 - [Sonar Radar](./projects/Sonar Radar) 
