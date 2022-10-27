@@ -43,6 +43,7 @@ Please read the following before contributing to the repository:
 - [button-ripple-effect](./projects/button-ripple-effect) 
 - [calculator](./projects/calculator) 
 - [calculator.css](./projects/calculator.css) 
+- [ceyshell](./projects/ceyshell) 
 - [checkbox-animation](./projects/checkbox-animation) 
 - [cpp_parser](./projects/cpp_parser) 
 - [custom-checkbox](./projects/custom-checkbox) 
