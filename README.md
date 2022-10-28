@@ -17,6 +17,9 @@ Please read the following before contributing to the repository:
  
 - [3d-layer-loader](./projects/3d-layer-loader) 
 - [Animated_Button_Dipesh](./projects/Animated_Button_Dipesh) 
+- [Parser for CPP](./projects/cpp_parser/)
+- [Shell Implementation in CPP](./projects/ceyshell/)
+- [Deadlock & Synchronization Solution](./projects/process_synchronization/)
 - [Bubble Coloring Animated Button Template](./projects/Bubble Coloring Animated Button Template) 
 - [Budget-Planner](./projects/Budget-Planner) 
 - [CSS Marquee](./projects/CSS Marquee) 
