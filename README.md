@@ -66,6 +66,7 @@ Please read the following before contributing to the repository:
 - [portfolio](./projects/portfolio) 
 - [process_synchronization](./projects/process_synchronization) 
 - [progress-loader](./projects/progress-loader) 
+- [projecttt2](./projects/projecttt2) 
 - [random-quote](./projects/random-quote) 
 - [resposive-card](./projects/resposive-card) 
 - [rock-paper](./projects/rock-paper) 
