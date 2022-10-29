@@ -67,6 +67,7 @@ Please read the following before contributing to the repository:
 - [process_synchronization](./projects/process_synchronization) 
 - [progress-loader](./projects/progress-loader) 
 - [project 3](./projects/project 3) 
+- [project4](./projects/project4) 
 - [projecttt2](./projects/projecttt2) 
 - [random-quote](./projects/random-quote) 
 - [resposive-card](./projects/resposive-card) 
