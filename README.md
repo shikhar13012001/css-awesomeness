@@ -71,6 +71,7 @@ Please read the following before contributing to the repository:
 - [rock-paper](./projects/rock-paper) 
 - [shell](./projects/shell) 
 - [slider-loader](./projects/slider-loader) 
+- [styledbuts](./projects/styledbuts) 
 - [wave-loader](./projects/wave-loader)
 
 ## 😎 Maintainer
