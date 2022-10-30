@@ -2,7 +2,7 @@
 
 ![Banner](./scripts/assets/banner.png)
 
-This project is for hacktoberfest to encourage new developer and open source developers to contribute to open source and improve skills which require debugging, write testable code, industry standards, problem solving and many more,
+The goal of this project for Hacktoberfest is to improve skills such as debugging, writing testable code, industry standards, problem solving, and many others while also encouraging new developers and open source developers to contribute to open source.
 
 ## 💙 For contributors
 
